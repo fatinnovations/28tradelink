@@ -66,7 +66,7 @@ const FlashDeals = () => {
   if (!flashDeals?.length) return null;
 
   return (
-    <section className="bg-card rounded-lg shadow-sm overflow-hidden">
+    <section className="bg-card shadow-sm overflow-hidden">
       <div className="flash-banner px-3 py-3 sm:p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
           <div className="flex items-center gap-2">

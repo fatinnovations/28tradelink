@@ -22,16 +22,16 @@ const Header = () => {
           <MobileMenu />
 
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm sm:text-lg">28</span>
             </div>
             <div>
-              <h1 className="text-base sm:text-xl font-bold text-primary leading-tight">28TradeLink</h1>
+              <h1 className="text-base sm:text-xl font-bold text-primary leading-tight">TradeLink</h1>
               <p className="hidden sm:block text-[10px] text-muted-foreground -mt-0.5">{t("globalMarketplace")}</p>
             </div>
           </Link>
 
-          {/* Search - hidden on xs, shown on sm+ */}
+          {/* Search - hidden on extra small, shown on sm+ */}
           <div className="hidden sm:flex flex-1">
             <SearchBar />
           </div>

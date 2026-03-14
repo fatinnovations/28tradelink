@@ -80,13 +80,13 @@ const Footer = () => {
               <h3 className="font-semibold mb-4">{title}</h3>
               {title === t("payWith") ? (
                 <div className="flex flex-wrap gap-3">
-                  <div className="h-10 px-3 bg-white rounded-md flex items-center justify-center">
-                    <img src={airtelMoneyLogo} alt="Airtel Money" className="h-7 w-auto object-contain" />
+                  <div className="h-10 bg-white flex items-center justify-center">
+                    <img src={airtelMoneyLogo} alt="Airtel Money" className="h-16 w-auto object-contain" />
                   </div>
-                  <div className="h-10 px-3 bg-white rounded-md flex items-center justify-center">
-                    <img src={tnmMpambaLogo} alt="TNM Mpamba" className="h-7 w-auto object-contain" />
+                  <div className="h-10 bg-white flex items-center justify-center">
+                    <img src={tnmMpambaLogo} alt="TNM Mpamba" className="h-16 w-auto object-contain" />
                   </div>
-                  <div className="h-10 px-3 bg-white/10 rounded-md flex items-center gap-2 justify-center">
+                  <div className="h-10 px-3 bg-white/10 flex items-center gap-2 justify-center">
                     <Building2 className="w-4 h-4" />
                     <span className="text-xs font-medium">Bank Transfer</span>
                   </div>
@@ -111,10 +111,10 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="container py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
+            <div className="w-8 h-8 bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">28</span>
             </div>
-            <span className="font-semibold">28TradeLink</span>
+            <span className="font-semibold">TradeLink</span>
           </Link>
           
           <div className="flex items-center gap-4">

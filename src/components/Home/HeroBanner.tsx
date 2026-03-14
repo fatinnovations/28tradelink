@@ -31,7 +31,7 @@ const HeroBanner = () => {
   }
 
   return (
-    <div className="relative overflow-hidden rounded-lg h-[200px] sm:h-[280px] md:h-[350px]">
+    <div className="relative overflow-hidden h-[200px] sm:h-[280px] md:h-[350px]">
       <div
         className="flex transition-transform duration-500 h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}

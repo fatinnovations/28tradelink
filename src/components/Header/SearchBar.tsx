@@ -34,7 +34,7 @@ const SearchBar = () => {
 
   return (
     <div className="flex-1 max-w-2xl mx-4 relative">
-      <div className={`flex items-center border-2 rounded-full overflow-hidden transition-all ${isFocused ? 'border-primary ring-2 ring-primary/20' : 'border-primary'}`}>
+      <div className={`flex items-center border-2 overflow-hidden transition-all ${isFocused ? 'border-primary ring-2 ring-primary/20' : 'border-primary'}`}>
         <input
           type="text"
           value={searchQuery}
@@ -48,7 +48,7 @@ const SearchBar = () => {
         <button className="p-2 hover:bg-muted transition-colors">
           <Camera className="w-5 h-5 text-muted-foreground" />
         </button>
-        <Button className="rounded-none rounded-r-full px-6 h-full" onClick={() => handleSearch()}>
+        <Button className="rounded-none px-6 h-full" onClick={() => handleSearch()}>
           <Search className="w-5 h-5" />
         </Button>
       </div>

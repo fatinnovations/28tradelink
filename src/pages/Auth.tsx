@@ -111,7 +111,7 @@ const Auth = () => {
           <div className="bg-card rounded-lg shadow-lg p-6">
             {/* Header */}
             <div className="text-center mb-6">
-              <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary-foreground font-bold text-2xl">28</span>
               </div>
               <h1 className="text-2xl font-bold">
@@ -129,7 +129,7 @@ const Auth = () => {
             <div className="flex bg-muted rounded-lg p-1 mb-6">
               <button
                 onClick={() => setIsSignUp(false)}
-                className={`flex-1 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`flex-1 py-2 text-sm font-medium transition-colors ${
                   !isSignUp ? "bg-background shadow-sm" : "text-muted-foreground"
                 }`}
               >
@@ -137,7 +137,7 @@ const Auth = () => {
               </button>
               <button
                 onClick={() => setIsSignUp(true)}
-                className={`flex-1 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`flex-1 py-2 text-sm font-medium transition-colors ${
                   isSignUp ? "bg-background shadow-sm" : "text-muted-foreground"
                 }`}
               >
@@ -145,7 +145,7 @@ const Auth = () => {
               </button>
             </div>
 
-            {/* Sign In Form */}
+            {/*i have implemented Sign In Form */}
             {!isSignUp && (
               <form onSubmit={signInForm.handleSubmit(handleSignIn)} className="space-y-4">
                 <div>
@@ -199,7 +199,7 @@ const Auth = () => {
               </form>
             )}
 
-            {/* Sign Up Form */}
+            {/*i'm done with Sign Up Form */}
             {isSignUp && (
               <form onSubmit={signUpForm.handleSubmit(handleSignUp)} className="space-y-4">
                 <div>
